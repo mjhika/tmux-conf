@@ -5,5 +5,6 @@ This is just a basic tmux config that I use. I keep most things default.
 # Install
 
 ```shell
-ln -s $(pwd)/tmux.conf ~/.tmux-conf
+git clone https://github.com/mjhika/tmux-conf.git
+ln -s $(pwd)/tmux-conf/tmux.conf ~/.tmux.conf
 ```
